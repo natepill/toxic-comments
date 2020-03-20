@@ -1,3 +1,20 @@
+import numpy as np
+import pandas as pd
+from keras.layers import Dense, Input, LSTM, Bidirectional, Conv1D
+from keras.layers import Dropout, Embedding
+from keras.preprocessing import text, sequence
+from keras.models import Model
+from keras.models import Sequential
+import numpy as np
+import pandas as pd
+from keras.layers import Dense, Input, LSTM, Bidirectional, Conv1D, MaxPooling1D, GlobalMaxPooling1D
+from keras.layers import Dropout, Embedding, concatenate
+from keras.preprocessing import text, sequence
+
+from keras.models import Model
+
+
+
 from keras.layers import Input, Flatten, Activation, multiply, TimeDistributed, RepeatVector, Permute, Lambda
 from keras import backend as K
 
