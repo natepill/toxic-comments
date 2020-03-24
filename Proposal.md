@@ -16,6 +16,13 @@ New
 **Is your project Solo or Team?**
 Solo
 
+
+## Code Structure and Design
+
+The design of the application will be a one page web app. There will be a user input box for copy pasting text and a submit button. Once the toxicity score is calculated, then it will appear on the same page.
+
+The code structure will be a simple backend api that handling the machine learning processing and a front end for displaying results.
+
 ## Description
 
 **Write a paragraph summary of the current status of your project, what you hope to achieve during the intensive, how and why**

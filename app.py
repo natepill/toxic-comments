@@ -34,8 +34,8 @@ import json
 
 if __name__ == "__main__":
 
-    # text = 'I hate dogs. I hate cats. I hate humans'.split(' ')
-    # text = 'I love dogs. I love cats. I like humans'.split(' ')
+    text = 'I love dogs. I love cats. I like humans'.split(' ')
+    text = 'I hate dogs. I hate cats. I hate humans'.split(' ')
     toxicity_score = get_score(text)
 
     print(toxicity_score)
