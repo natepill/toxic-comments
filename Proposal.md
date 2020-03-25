@@ -23,6 +23,26 @@ The design of the application will be a one page web app. There will be a user i
 
 The code structure will be a simple backend api that handling the machine learning processing and a front end for displaying results.
 
+
+## Model Evaluation Metrics
+
+### Plain Lstm
+* 'test_f1': .8968
+* 'test_precision': .8904
+* 'test_recall': .9038
+
+### LSTM w/ Attn
+* 'test_f1': .9024,
+* 'test_precision': .9058,
+* 'test_recall':.8995
+
+### LSTM w/ CNN
+* 'test_f1': .9060,
+* 'test_precision': .9073,
+* 'test_recall':.9051
+
+
+
 ## Description
 
 **Write a paragraph summary of the current status of your project, what you hope to achieve during the intensive, how and why**
